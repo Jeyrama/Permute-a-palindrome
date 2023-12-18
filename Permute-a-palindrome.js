@@ -27,3 +27,5 @@ function permuteAPalindrome(input) {
     .replace(/(.)\1/g, '')
     .length <= 1;
 }
+
+// or
