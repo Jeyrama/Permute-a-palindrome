@@ -15,3 +15,6 @@ Hint:
   of the string and check each one of them whether it is a palindrome. 
   However, an optimized approach will not require this at all.
 */
+
+
+// Solution
