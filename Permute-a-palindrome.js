@@ -29,3 +29,11 @@ function permuteAPalindrome(input) {
 }
 
 // or
+
+const permuteAPalindrome = str => {
+  let set = new Set();
+  for (let char of str) {
+    set[set.has(char) ? 'delete' : 'add'](char);
+  }
+  return set.size < 2;
+}
